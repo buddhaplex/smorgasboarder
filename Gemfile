@@ -41,6 +41,12 @@ gem 'sprockets', '<= 2.11.0'
 # Add User Auth
 gem 'devise', '>= 3.2.4'
 
+# Add Map Integration
+gem 'geocoder'
+
+# Adding Figaro
+gem 'figaro', '>= 1.0.0'
+
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
   gem 'sdoc', require: false
