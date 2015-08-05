@@ -8,7 +8,7 @@ test "rating is humanized_rating" do
 	place = FactoryGirl.create(:place)
 	assert_difference 'place.comments.count' do
 		post :create, :place_id => place.id, :comment => {
-			:rating => '1_star',
+			:rating => '4_stars',
 			:message => 'the best.'
 		}
 	end
