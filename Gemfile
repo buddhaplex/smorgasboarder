@@ -53,7 +53,11 @@ gem 'carrierwave'
 # Fog for CarrierWave to comm with AWS
 gem 'fog', '~> 1.3.1'
 
+# FactoryGirl for testing
 gem 'factory_girl_rails', '~> 4.0'
+
+# Mocha for stubbing
+gem 'mocha'
 
 
 group :doc do
